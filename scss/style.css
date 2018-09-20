@@ -8,9 +8,26 @@
 html {
   font-size: 12px;
 }
+.dollars{
+  color: coral;
+  font-size: 36px;
+}
+.header-text{
+  color: gray;
+  font-size: 36px;
+}
+.text-color{
+  color: gray;
+}
 @media (max-width: 480px) {
   html {
     font-size: 10px;
+  }
+  .dollars{
+    font-size: 26px;
+  }
+  .header-text{
+    font-size: 26px;
   }
 }
 
