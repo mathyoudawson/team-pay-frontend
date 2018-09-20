@@ -7,17 +7,24 @@
 }
 html {
   font-size: 12px;
+  padding: 20px;
 }
 .dollars{
-  color: coral;
+  color: orangered;
   font-size: 36px;
 }
 .header-text{
-  color: gray;
+  color: darkgray;
   font-size: 36px;
 }
 .text-color{
-  color: gray;
+  color: darkgray;
+}
+
+.grayed{
+  background-color: silver;
+  color: black;
+  border-color: gray;
 }
 @media (max-width: 480px) {
   html {
