@@ -20,24 +20,27 @@ html {
 .text-color{
   color: darkgray;
 }
-
 .grayed{
   background-color: silver;
   color: black;
   border-color: gray;
 }
+.border {
+  margin-bottom: 1em;
+}
 @media (max-width: 480px) {
   html {
     font-size: 10px;
   }
-  .dollars{
-    font-size: 26px;
-  }
-  .header-text{
+  .dollars, .header-text, h1{
     font-size: 26px;
   }
 }
-
+@media (max-width: 380px) {
+  h1{
+    font-size: 20px;
+  }
+}
 @media (max-width: 280px) {
   html {
     font-size: 5px;
