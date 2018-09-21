@@ -1,3 +1,13 @@
+body{
+  font-family: 'Rubik', sans-serif;
+}
+.chevon-size{
+  width: 100%;
+  height: auto;
+}
+.expanded-card{
+  margin-bottom: 100px;
+}
 .filter {
   width: 30%;
 }
@@ -27,6 +37,12 @@ html {
 }
 .border {
   margin-bottom: 1em;
+}
+@media (min-width: 800px) {
+  html {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 @media (max-width: 480px) {
   html {
