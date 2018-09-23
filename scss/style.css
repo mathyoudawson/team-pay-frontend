@@ -33,6 +33,13 @@ html {
   color: orangered;
   font-size: 22px;
 }
+.dollars-small-paid{
+  color: springgreen;
+  font-size: 22px;
+}
+.dollars-total-small{
+  font-size: 22px;
+}
 .header-text{
   color: darkgray;
   font-size: 36px;
