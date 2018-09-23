@@ -1,6 +1,12 @@
 body{
   font-family: 'Rubik', sans-serif;
 }
+#time, #date, #team{
+  padding: 0px;
+}
+p, h1, h2, h3, h4{
+  color: darkgray;
+}
 .chevon-size{
   width: 100%;
   height: auto;
@@ -23,6 +29,10 @@ html {
   color: orangered;
   font-size: 36px;
 }
+.dollars-small{
+  color: orangered;
+  font-size: 22px;
+}
 .header-text{
   color: darkgray;
   font-size: 36px;
@@ -42,11 +52,13 @@ html {
   html {
     margin-left: 15%;
     margin-right: 15%;
+    /* padding: 10px; */
   }
 }
 @media (max-width: 480px) {
   html {
     font-size: 10px;
+    padding: 5px;
   }
   .dollars, .header-text, h1{
     font-size: 26px;
