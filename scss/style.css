@@ -80,6 +80,10 @@ html {
   padding: 20px;
 }
 
+.add-remove {
+  width: 10em
+}
+
 @media (min-width: 800px) {
   html {
     margin-left: 15%;
