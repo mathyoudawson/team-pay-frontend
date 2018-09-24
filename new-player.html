@@ -23,39 +23,21 @@
   <header>
     <div class="d-flex justify-content-between align-items-baseline">
       <div class="p-2">
-        <h2 class="large-text text-color"><b>+ Add Player</b></h2>
+        <h2 class="large-text text-color"><b>+ New Player</b></h2>
       </div>
     </div>
   </header>
 
-  <div class="d-flex border p-4 mb-5">
-    <div class="d-flex flex-column flex-grow-1 text-color">
-        <div class="d-flex flex-row">
-            <div>
-              <h2>✔️</h2>
-              </div>
-            <div class="flex-grow-1">
-              <h2>Matthew</h2>
-            </div>
-            <div>
-              <button type="button" class="add-remove btn btn-light rounded-0 grayed"><b>Remove</b></button>
-            </div>
-          </div>
-          <div class="d-flex flex-row">
-              <div>
-                </div>
-              <div class="flex-grow-1">
-                <h2>Riaan</h2>
-              </div>
-              <div>
-                <button type="button" class="add-remove btn btn-light rounded-0 grayed"><b>Add</b></button>
-              </div>
-            </div>
-      <button type="button" class="btn btn-light rounded-0 grayed btn-lg btn-block">
-        <h1><b>+ New player</b></h1>
-      </button>
-    </div>
-  </div>
+  <form>
+      <div class="form-group">
+        <label for="InputName">Name</label>
+        <input type="name" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="InputEmail">Email</label>
+        <input type="email" class="form-control" id="InputEmail" placeholder="Enter Flux email">
+      </div>
+    </form>
 
   <button type="button" class="btn btn-light rounded-0 grayed btn-lg btn-block">
     <h1><b>OK</b></h1>
