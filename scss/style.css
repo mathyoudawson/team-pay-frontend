@@ -40,17 +40,17 @@ html {
 }
 
 .dollars {
-  color: orangered;
+  color: #d82258;
   font-size: 36px;
 }
 
 .dollars-small {
-  color: orangered;
+  color: #d82258;
   font-size: 22px;
 }
 
 .dollars-small-paid {
-  color: springgreen;
+  color: limegreenß;
   font-size: 22px;
 }
 
@@ -64,6 +64,15 @@ html {
 
 .gray-text {
   color: darkgray;
+}
+
+.green-text {
+  color: #3ead70;
+}
+
+.green-tick {
+  color: transparent;
+  text-shadow: 0 0 0 #3ead70;
 }
 
 .grayed {
